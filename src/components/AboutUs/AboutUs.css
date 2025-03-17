@@ -1,0 +1,38 @@
+.about-us {
+  clear: both; /* floatで回り込むことを阻止 */
+  width: 80%;
+  margin: 0 auto;
+}
+
+.about-us-title h1 {
+  font-size: 5rem;
+}
+
+.about-us-title span {
+  color: #808080;
+}
+
+.about-us-main {
+  display: flex;
+  align-items: center;
+  font-size: 2.5rem;
+  justify-content: space-between;
+  line-height: 4.5rem;
+  margin-top: 40px;
+}
+
+.about-us-main p {
+  margin-left: 30px;
+  color: #ddd;
+}
+
+.about-us-main p span {
+  border-bottom: #ddd 3px solid;
+}
+
+.proxy-img {
+  width: 720px;
+  height: 340px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+}
