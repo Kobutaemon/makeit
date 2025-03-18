@@ -2,14 +2,7 @@
   clear: both; /* floatで回り込むことを阻止 */
   width: 80%;
   margin: 0 auto;
-}
-
-.about-us-title h1 {
-  font-size: 5rem;
-}
-
-.about-us-title span {
-  color: #808080;
+  padding-top: 200px;
 }
 
 .about-us-main {

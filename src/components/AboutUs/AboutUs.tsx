@@ -1,15 +1,12 @@
 import React from 'react'
 import './AboutUs.css'
+import SectionTitle from '../../SectionTitle/SectionTitle'
 
 function AboutUs() {
   return (
     <div className="about-us">
       <section className="about-us-title">
-        <h1>
-          <span>&lt; </span>
-          About us
-          <span> /&gt;</span>
-        </h1>
+        <SectionTitle text="About us" />
       </section>
       <section className="about-us-main">
         <p>
