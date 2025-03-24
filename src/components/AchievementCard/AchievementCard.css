@@ -1,0 +1,46 @@
+.achievement-card {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 520px;
+  align-items: center;
+  gap: 32px;
+  background-color: #333;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+
+.achievement-card:hover {
+  opacity: 0.8;
+  /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); */
+}
+
+.achievement-card-title, .achievement-card-description {
+  padding: 0 32px;
+  text-align: left;
+}
+
+.achievement-card h3 {
+  font-size: 2rem;
+}
+
+.achievement-card p {
+  font-size: 1.5rem;
+}
+
+.achievement-card .dummy-img {
+  width: 400px;
+  height: 240px;
+  background-color: #d9d9d9;
+}
+
+/* 以下swiperのpaginationに関するcss */
+.swiper-pagination {
+  position: relative;
+  margin-top: 25px;
+}
+
+.swiper-pagination-bullet {
+  background: var(--swiper-pagination-bullet-inactive-color, #929292);
+}

@@ -1,12 +1,12 @@
 import React from 'react'
 import './AboutUs.css'
-import SectionTitle from '../../SectionTitle/SectionTitle'
+import SectionTitle from '../SectionTitle/SectionTitle'
 
 function AboutUs() {
   return (
     <div className="about-us">
       <section className="about-us-title">
-        <SectionTitle text="About us" />
+        <SectionTitle title="About Us" />
       </section>
       <section className="about-us-main">
         <p>

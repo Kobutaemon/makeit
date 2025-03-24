@@ -1,0 +1,11 @@
+.section-title {
+  margin-top: 200px;
+}
+
+.section-title h1 {
+  font-size: 5rem;
+}
+
+.section-title span {
+  color: #808080;
+}

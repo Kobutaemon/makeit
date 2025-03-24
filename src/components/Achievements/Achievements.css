@@ -1,0 +1,11 @@
+.achievements {
+  margin: 0 auto;
+  text-align: right;
+  width: 80%;
+  height: 100vh;
+}
+
+.achievements-content {
+  margin-top: 111px;
+  width: 100%;
+}
