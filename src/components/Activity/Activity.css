@@ -1,7 +1,3 @@
-.activity-container {
-  height: 100vh;
-}
-
 .activity-contents {
   display: grid;
   grid-template-columns: 6fr 4fr;
