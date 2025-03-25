@@ -1,0 +1,83 @@
+.activity-container {
+  height: 100vh;
+}
+
+.activity-contents {
+  display: grid;
+  grid-template-columns: 6fr 4fr;
+  margin-top: 80px;
+}
+
+.activity-text-wrapper {
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  & p:nth-child(1) {
+    margin-bottom: 30px;
+  }
+}
+
+.activity-image {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #333;
+  gap: 20px;
+  padding: 40px;
+  margin: 0 auto;
+  border-radius: 10px;
+  min-width: 500px;
+
+  & .weekday {
+    margin: 20px 0;
+  }
+}
+
+.work-date {
+  border-bottom: #666 2px solid;
+  padding-bottom: 50px;
+  & h3 {
+    font-size: 2.5rem;
+  }
+}
+
+.weekday {
+  display: flex;
+  justify-content: space-around;
+  & span {
+    font-size: 1.2rem;
+    margin-right: 20px;
+    padding: 5px 8px;
+  }
+
+  & span:nth-child(4) {
+    background-color: #fff;
+    color: #000;
+    border-radius: 50%;
+  }
+}
+
+.work-time {
+  text-align: left;
+}
+
+.using-tool h3 {
+  font-size: 2rem;
+}
+
+.tool-discord {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  justify-content: center;
+  margin-top: 10px;
+
+  & img {
+    border-radius: 50%;
+    transform: scale(0.8);
+  }
+
+  & p {
+    font-size: 2.5rem;
+  }
+}

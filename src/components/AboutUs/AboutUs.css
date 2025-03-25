@@ -1,6 +1,5 @@
 .about-us {
   clear: both; /* floatで回り込むことを阻止 */
-  width: 80%;
   margin: 0 auto;
   padding-top: 200px;
 }

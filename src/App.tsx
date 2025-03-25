@@ -4,6 +4,7 @@ import Header from './components/Header/Header'
 import FirstView from './components/FirstView/FirstView'
 import AboutUs from './components/AboutUs/AboutUs'
 import Achievements from './components/Achievements/Achievements'
+import Activity from './components/Activity/Activity'
 
 function App() {
 
@@ -11,8 +12,11 @@ function App() {
     <>
       <Header />
       <FirstView />
-      <AboutUs />
-      <Achievements />
+      <div className="main">
+        <AboutUs />
+        <Achievements />
+        <Activity />
+      </div>
     </>
   )
 }
