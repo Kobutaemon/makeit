@@ -3,7 +3,7 @@ import './JoinButton.css'
 
 function JoinButton() {
   return (
-    <button>Join/Job</button>
+    <button className='join-job-button'>Join/Job</button>
   )
 }
 
