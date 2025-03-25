@@ -1,0 +1,54 @@
+.team-title {
+  text-align: right;
+}
+
+.team-main {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 1fr;
+  grid-gap: 50px;
+
+  & .team-swiper {
+    padding: 75px 0;
+    border: #666 4px solid;
+    border-radius: 10px;
+  }
+}
+
+.dummy-team-img {
+  width: 150px;
+  height: 150px;
+  background-color: #999;
+}
+
+.team-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.team-intro-sen {
+  font-size: 2rem;
+}
+
+.member-list-button button{
+  width: 320px;
+  height: 48px;
+  border: #fff 2px solid;
+  background-color: transparent;
+  color: #fff;
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  }
+
+/* 以下swiperに関するcss */
+.team-swiper .swiper-wrapper {
+  transition-timing-function: linear;
+}
