@@ -1,4 +1,3 @@
-import React from 'react'
 import './Activity.css'
 import SectionTitle from '../SectionTitle/SectionTitle'
 
