@@ -34,13 +34,3 @@
   height: 240px;
   background-color: #d9d9d9;
 }
-
-/* 以下swiperのpaginationに関するcss */
-.swiper-pagination {
-  position: relative;
-  margin-top: 25px;
-}
-
-.swiper-pagination-bullet {
-  background: var(--swiper-pagination-bullet-inactive-color, #929292);
-}
