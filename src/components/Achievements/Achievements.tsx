@@ -4,7 +4,7 @@ import 'swiper/css/pagination';
 import './Achievements.css'
 import { Pagination } from 'swiper/modules';
 import SectionTitle from '../SectionTitle/SectionTitle'
-import AchievementCard from '../AchievementCard/AchievementCard'
+import AchievementCard from '../AchievementCard/AchievementCard'  
 
 function Achievements(){
   return (
@@ -15,9 +15,25 @@ function Achievements(){
       <div className="achievements-content">
         <Swiper
           modules={[Pagination]}
-          spaceBetween={0}
-          slidesPerView={3}
-          pagination={true}
+          loop={true}
+          centeredSlides={true}
+          pagination={{
+            clickable: true,
+          }}
+          breakpoints={{
+            640: {
+              slidesPerView: 1,
+              spaceBetween: 100,
+            },
+            768: {
+              slidesPerView: 1.5,
+              spaceBetween: 100,
+            },
+            1024: {
+              slidesPerView: 3.8,
+              spaceBetween: 100,
+            }
+          }}
         >
           <SwiperSlide>
             <AchievementCard title='Test Achievement 1' description='This is the test achievementThis is the test achievementThis is the test achievementThis is the test achievementThis is the test achievement'/>
