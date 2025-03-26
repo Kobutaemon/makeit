@@ -34,6 +34,10 @@ function Achievements(){
             1500: {
               slidesPerView: 2.8,
               spaceBetween: 100,
+            },
+            1800: {
+              slidesPerView: 3.5,
+              spaceBetween: 100,
             }
         }}
         >
