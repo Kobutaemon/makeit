@@ -5,6 +5,7 @@ import FirstView from './components/FirstView/FirstView'
 import AboutUs from './components/AboutUs/AboutUs'
 import Activity from './components/Activity/Activity'
 import Team from './components/Team/Team'
+import Blog from './components/Blog/Blog'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         {/* <Achievements /> */}
         <Activity />
         <Team />
+        <Blog />
       </div>
     </>
   )
