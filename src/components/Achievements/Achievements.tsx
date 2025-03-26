@@ -14,6 +14,8 @@ function Achievements(){
       </div>
       <div className="achievements-content">
         <Swiper
+          // slidesPerView={3}
+          // spaceBetween={100}
           modules={[Pagination]}
           loop={true}
           centeredSlides={true}
@@ -22,18 +24,18 @@ function Achievements(){
           }}
           breakpoints={{
             640: {
-              slidesPerView: 1,
+              slidesPerView: 1.8,
               spaceBetween: 100,
             },
-            768: {
-              slidesPerView: 1.5,
+            1000: {
+              slidesPerView: 2.2,
               spaceBetween: 100,
             },
-            1024: {
-              slidesPerView: 3.8,
+            1500: {
+              slidesPerView: 2.8,
               spaceBetween: 100,
             }
-          }}
+        }}
         >
           <SwiperSlide>
             <AchievementCard title='Test Achievement 1' description='This is the test achievementThis is the test achievementThis is the test achievementThis is the test achievementThis is the test achievement'/>
