@@ -3,7 +3,6 @@ import React from 'react'
 import Header from './components/Header/Header'
 import FirstView from './components/FirstView/FirstView'
 import AboutUs from './components/AboutUs/AboutUs'
-import Achievements from './components/Achievements/Achievements'
 import Activity from './components/Activity/Activity'
 import Team from './components/Team/Team'
 
@@ -15,7 +14,7 @@ function App() {
       <FirstView />
       <div className="main">
         <AboutUs />
-        <Achievements />
+        {/* <Achievements /> */}
         <Activity />
         <Team />
       </div>
