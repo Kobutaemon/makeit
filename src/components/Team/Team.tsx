@@ -20,6 +20,7 @@ function Team() {
             slidesPerView={4.5}
             speed={5000}
             spaceBetween={150}
+            allowTouchMove={false}
           >
             <SwiperSlide>
               <div className="dummy-team-img"></div>
@@ -52,6 +53,7 @@ function Team() {
             slidesPerView={4.5}
             speed={5000}
             spaceBetween={150}
+            allowTouchMove={false}
           >
             <SwiperSlide>
               <div className="dummy-team-img"></div>
