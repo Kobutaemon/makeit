@@ -9,10 +9,10 @@ function AboutUs() {
         <SectionTitle title="About Us" />
       </section>
       <section className="about-us-main">
+        <div className="proxy-img" />
         <p>
           MakeITは横浜、<br />情報科学専門学校で<br />アプリ・サービス開発をメインに行う<br /><span>”ものづくり”サークル</span>です。
         </p>
-        <div className="proxy-img" />
       </section>
     </div>
   )

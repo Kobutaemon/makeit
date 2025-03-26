@@ -4,22 +4,23 @@
   padding-top: 200px;
 }
 
+.about-us-title {
+  text-align: right;
+}
+
 .about-us-main {
   display: flex;
   align-items: center;
   font-size: 2.5rem;
-  justify-content: space-between;
+  gap: 80px;
+  /* justify-content: space-between; */
   line-height: 4.5rem;
-  margin-top: 40px;
+  margin-top: 80px;
 }
 
 .about-us-main p {
   margin-left: 30px;
   color: #ddd;
-}
-
-.about-us-main p span {
-  border-bottom: #ddd 3px solid;
 }
 
 .proxy-img {
