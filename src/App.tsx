@@ -6,6 +6,7 @@ import AboutUs from './components/AboutUs/AboutUs'
 import Activity from './components/Activity/Activity'
 import Team from './components/Team/Team'
 import Blog from './components/Blog/Blog'
+import Contact from './components/Contact/Contact'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <Activity />
         <Team />
         <Blog />
+        <Contact />
       </div>
     </>
   )
