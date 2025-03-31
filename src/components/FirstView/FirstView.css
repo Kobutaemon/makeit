@@ -17,3 +17,34 @@ article .intro-section, article .join-section {
 .intro-section h2, .join-section h3 {
   margin: 60px 0;
 }
+
+
+@media (max-width: 768px) {
+  article {
+    width: 80%;
+    float: none;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 50px;
+    border-radius: 20px;
+  }
+
+  .intro-section h2, .join-section h3 {
+    margin: 0 0 60px 0;
+  }
+
+  .intro-section {
+    h2 {
+      font-size: 1.8rem;
+    }
+
+    img {
+      transform: scale(1.0);
+    }
+  }
+
+  .join-section {
+    h3 {
+      font-size: 2rem;
+    }
+  }
+}

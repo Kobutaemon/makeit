@@ -17,7 +17,6 @@ function App() {
       <FirstView />
       <div className="main">
         <AboutUs />
-        {/* <Achievements /> */}
         <Activity />
         <Team />
         <Blog />

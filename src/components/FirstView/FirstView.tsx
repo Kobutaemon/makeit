@@ -5,7 +5,7 @@ import './FirstView.css'
 function FirstView() {
   return (
     <article>
-      <div className="cover-section">
+      <div className="firstview-container">
         <section className='intro-section'>
           <img src="./assets/makeit_logo.png" alt="MakeITのロゴ" />
           <h2>If we can try, we can Make IT exciting.</h2>

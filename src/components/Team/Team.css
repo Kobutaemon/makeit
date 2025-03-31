@@ -8,6 +8,10 @@
   grid-template-columns: minmax(0, 1fr) 1fr;
   grid-gap: 50px;
 
+  .swiper:first-child {
+    margin-bottom: 30px;
+  }
+
   & .team-swiper {
     padding: 75px 0;
     border: #666 4px solid;
@@ -51,4 +55,16 @@
 /* 以下swiperに関するcss */
 .team-swiper .swiper-wrapper {
   transition-timing-function: linear;
+}
+
+@media (max-width: 768px) {
+  .team-main {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+  
+    .team-intro {
+      gap: 40px;
+    }
+  }
 }

@@ -58,13 +58,27 @@
 }
 
 @media (max-width: 768px) {
-  .footer {
-    text-align: center;
-    padding: 20px;
+  .footer-container {
+    flex-direction: column;
+    padding: 30px;
+    width: 90%;
+    background-color: #eee;
   }
 
-  .footer-links {
-    flex-direction: column;
-    gap: 10px;
+  .footer-logo-content, .footer-nav ul {
+    
+  }
+
+  .footer-nav {
+    width: 100%;
+    gap: 20px;
+
+    ul {
+      flex-direction: column;
+      gap: 20px;
+      border-top: #888 1px solid;
+      border-bottom: #888 1px solid;
+      padding: 20px 0;
+    }
   }
 }

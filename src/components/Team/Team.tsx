@@ -4,6 +4,11 @@ import './Team.css'
 import { Autoplay } from 'swiper/modules'
 import SectionTitle from '../SectionTitle/SectionTitle'
 
+// 以下スライドショーのための配列、データが来たら差し替える
+// const images = [
+//   "./assets/example001.jpg",
+//   "./assets/example002.jpg""
+// ];
 
 function Team() {
   return (
@@ -21,6 +26,18 @@ function Team() {
             speed={5000}
             spaceBetween={150}
             allowTouchMove={false}
+            breakpoints={
+              {
+                768: {
+                  slidesPerView: 3.5,
+                  spaceBetween: 50,
+                },
+                1024: {
+                  slidesPerView: 4.5,
+                  spaceBetween: 150,
+                }
+              }
+            }
           >
             <SwiperSlide>
               <div className="dummy-team-img"></div>
@@ -54,6 +71,18 @@ function Team() {
             speed={5000}
             spaceBetween={150}
             allowTouchMove={false}
+            breakpoints={
+              {
+                768: {
+                  slidesPerView: 3.5,
+                  spaceBetween: 50,
+                },
+                1024: {
+                  slidesPerView: 4.5,
+                  spaceBetween: 150,
+                }
+              }
+            }
           >
             <SwiperSlide>
               <div className="dummy-team-img"></div>

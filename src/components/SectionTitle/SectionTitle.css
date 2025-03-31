@@ -9,3 +9,13 @@
 .section-title span {
   color: #808080;
 }
+
+@media (max-width: 768px) {
+  .section-title {
+    text-align: left;
+
+    h1 {
+      font-size: 4rem;
+    }
+  }
+}

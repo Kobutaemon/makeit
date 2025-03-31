@@ -18,3 +18,15 @@
 /* .contact-title {
   text-align: center;
 } */
+
+/* ...既存のスタイル... */
+
+@media (max-width: 768px) {
+  .contact-container {
+    gap: 50px;
+  }
+
+  .contact-sen p{
+    font-size: 1.5rem;
+  }
+}
