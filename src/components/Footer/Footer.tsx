@@ -11,13 +11,13 @@ function Footer() {
       </div>
       <div className="footer-nav">
         <ul>
-          <li>About us</li>
-          <li>Activity</li>
-          <li>Team</li>
-          <li>Contact</li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Activity</a></li>
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
         <div className="footer-adress">
-          <span>Adress</span>
+          <span>Adress　</span>
           <span>〒221-0835  神奈川県横浜市神奈川区鶴屋町2-17 相鉄岩崎ビル</span>
         </div>
       </div>
