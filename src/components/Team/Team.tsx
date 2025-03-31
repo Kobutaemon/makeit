@@ -22,7 +22,7 @@ function Team() {
             loop={true}
             modules={[Autoplay]}
             autoplay={{delay:0}}
-            slidesPerView={1.8}
+            slidesPerView={2.8}
             speed={5000}
             spaceBetween={150}
             allowTouchMove={false}
@@ -67,7 +67,7 @@ function Team() {
             autoplay={{delay:0,
               reverseDirection: true
             }}
-            slidesPerView={4.5}
+            slidesPerView={2.8}
             speed={5000}
             spaceBetween={150}
             allowTouchMove={false}
@@ -76,10 +76,6 @@ function Team() {
                 768: {
                   slidesPerView: 3.5,
                   spaceBetween: 50,
-                },
-                840: {
-                  slidesPerView: 1.8,
-                  spaceBetween: 100,
                 },
                 1000: {
                   slidesPerView: 4.5,
