@@ -24,6 +24,7 @@
 } 
 
 .proxy-img {
+  max-width: 720px;
   width: 720px;
   height: 340px;
   background-color: #d9d9d9;
