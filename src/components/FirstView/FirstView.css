@@ -48,3 +48,19 @@ article .intro-section, article .join-section {
     }
   }
 }
+
+/* @media screen and (max-width: 480px) {
+  article {
+    width: 90%;
+  }
+
+  .intro-section h2, .join-section h3 {
+    font-size: 1.2rem;
+    margin: 0 0 30px 0;
+  }
+
+  .intro-section img {
+    transform: scale(0.8);
+  }
+  
+} */
