@@ -39,5 +39,14 @@
     flex-direction: column;
     gap: 30px;
     margin-top: 40px;
+
+    p {
+      margin: 0;
+      font-size: 2rem;
+    }
+  }
+
+  .proxy-img {
+    width: 90%;
   }
 }
