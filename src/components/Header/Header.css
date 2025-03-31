@@ -38,3 +38,77 @@ nav li a {
   color: #fff;
   text-decoration: none;
 }
+
+@media screen and (max-width: 768px) {
+  header .menu {
+    flex-direction: column;
+
+    ul {
+      border: none;
+    }
+  }
+
+  .menu {
+    position: fixed;
+    top: 0;
+    right: -100%; /* 初期状態では画面の外に隠れている */
+    width: 300px;
+    height: 100%;
+    background-color: #000;
+    color: #fff;
+    transition: right 0.3s ease; /* スライドインのアニメーション */
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 10;
+    justify-content: center;
+  }
+  
+  /* メニューが開いているとき */
+  .menu.open {
+    right: 0;
+  }
+
+  /* ボタンのスタイル */
+  .hamburger {
+    position: fixed;
+    top: 55px;
+    right: 55px;
+    width: 30px;
+    cursor: pointer;
+    z-index: 20;
+  }
+
+  .hamburger span {
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: #ffffff;
+    margin: 5px 0;
+    transition: 0.4s;
+  }
+
+  /* バツ印に変化するスタイル */
+  .hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  .hamburger.active span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -6px);
+  }
+
+  /* メニューリストのスタイル */
+  .menu ul {
+    list-style-type: none;
+    flex-direction: column;  
+  }
+
+  .menu li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+}
